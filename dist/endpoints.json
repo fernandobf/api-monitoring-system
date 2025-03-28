@@ -1,0 +1,47 @@
+{
+  "refreshTime": 60000,
+  "endpoints": [
+    {
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "method": "GET",
+      "auth": null,
+      "body": null
+    },
+    {
+      "url": "https://jsonplaceholder.typicode.com/users",
+      "method": "GET",
+      "auth": null,
+      "body": null
+    },
+    {
+      "url": "https://httpbin.org/post",
+      "method": "POST",
+      "auth": null,
+      "body": { "message": "Hello, world!" }
+    },
+    {
+      "url": "https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY",
+      "method": "GET",
+      "auth": null,
+      "body": null
+    },
+    {
+      "url": "https://catfact.ninja/fact",
+      "method": "GET",
+      "auth": null,
+      "body": null
+    },
+    {
+      "url": "https://randomuser.me/api/",
+      "method": "GET",
+      "auth": null,
+      "body": null
+    },
+    {
+      "url": "https://v2.jokeapi.dev/joke/Any",
+      "method": "GET",
+      "auth": null,
+      "body": null
+    }
+  ]
+}
